@@ -211,34 +211,14 @@ function vigilant_register_theme_customizer( $wp_customize ){
       )
     );
 
-    $wp_customize->add_setting(
-        'vigilant_bg_color',
-        array(
-          'default' => '#dedede',
-          'sanitize_callback' => 'sanitize_hex_color',
-        )
-      );
-
     $wp_customize->add_control(
       new \WP_Customize_Color_Control(
         $wp_customize,
         'primary_color',
         array(
           'label' => __('Primary Color', 'vigilant'),
-          'section' => 'theme_colors',
+          'section' => 'colors',
           'settings' => 'primary_color'
-        )
-      )
-    );
-
-    $wp_customize->add_control(
-      new \WP_Customize_Color_Control(
-        $wp_customize,
-        'vigilant_bg_color',
-        array(
-          'label' => __('Background Color', 'vigilant'),
-          'section' => 'theme_colors',
-          'settings' => 'vigilant_bg_color'
         )
       )
     );
@@ -291,12 +271,6 @@ add_action( 'customize_register', 'vigilant_register_theme_customizer' );
 function vigilant_customizer_css() {
 ?>
 	 <style type="text/css">
-
-/* BG */
-
-body {
-  background-color: <?php echo get_theme_mod('vigilant_bg_color');?>;
-}
 
 /* ------------Primary Colors ----------- */
 
@@ -354,3 +328,9 @@ function vigilant_customizer_live_preview() {
 } // end vigilant_customizer_live_preview
 
 add_action( 'customize_preview_init', 'vigilant_customizer_live_preview' );
+add_theme_support( 'post-formats' );
+$vigilant_bg = array(
+	'default-color'          => 'dedede',
+	'wp-head-callback'       => '_custom_background_cb',
+);
+add_theme_support( 'custom-background', $vigilant_bg );
