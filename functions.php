@@ -328,7 +328,7 @@ function vigilant_customizer_live_preview() {
 } // end vigilant_customizer_live_preview
 
 add_action( 'customize_preview_init', 'vigilant_customizer_live_preview' );
-add_theme_support( 'post-formats' );
+
 $vigilant_bg = array(
 	'default-color'          => 'dedede',
 	'wp-head-callback'       => '_custom_background_cb',
