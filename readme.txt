@@ -1,39 +1,28 @@
-IMPORTANT - PLEASE READ: http://tidythemes.com/concept/
+VIGILANT WP Theme
 
-YOU MAY DELETE THIS FILE AND ANY OTHER FILE(S) BEFORE STARTING YOUR PROJECT
+This is an easy to set up WordPress theme for bloggers and authors. It includes options in the WP Customizer so you can see the changes with a live preview. 
 
-If you're creating your own theme/client project open up all files and do a "Find and Replace All in All Files" on the word "vigilant" with your own slug/prefix.
+Vigilant is a free WordPress theme inspired by the Numix color scheme. More options will be added in the near future, and WooCommerce support is on the way. 
 
-- - THEME - -
+---------CURRENT OPTIONS---------
 
-vigilant WordPress Theme
-Demo: http://wp-themes.com/vigilant/
-Download: http://wordpress.org/themes/vigilant
+Logo/Favicon
+Colors: Primary Color, Background Color
+Homepage: Banner Background Image, Banner Text
 
-- - DESCRIPTION - -
+---------WIDGET AREAS------------
 
-This theme is aimed at web pros, but is of course available and supported for anyone.
+Sidebar
 
-The bare essentials of a WordPress theme, no visual CSS styles added except for the CSS reset and the mandatory WP classes. Perfect for those who would like to build their own theme completely from scratch.
+Homepage Widgets: The theme includes a 4 column section below the homepage banner, with 4 different widget areas.
 
-One custom menu and one widgetized sidebar to get you started.
+Footer Widgets: There is another 4 column section for widgets in the footer. 
 
-If you'd like a jumpstart with a CSS framework and more custom menus, page templates and widgetized areas, checkout SuperSimple:
+--------- RESPONSIVE -----------
 
-http://tidythemes.com/supersimple/
+Theme adapts well to all devices. It's lightweight and loads fast. 
 
-- - COPYRIGHT & LICENSE - -
+--------------------------------
 
-In its unchanged/original state, vigilant is...
-
-© 2011-2014 TidyThemes
-GNU General Public License | https://www.gnu.org/licenses/gpl.html
-
-...however, once you've significantly changed the theme to build your own unique
-project, either for yourself or for a client under a different theme name (as is encouraged) you're entirely welcome to copyright and license that project as you see fit.
-
-- - SUPPORT - -
-
-http://tidythemes.com/forum/
-
-Enjoy. Thanks, TidyThemes | http://tidythemes.com/
+FEEL FREE TO USE THIS AS A STARTING POINT FOR YOUR NEXT THEME.
+THEME IS BUILT WITH BOOTSTRAP.
