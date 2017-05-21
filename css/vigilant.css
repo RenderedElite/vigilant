@@ -309,6 +309,7 @@ p {
 
 #primary a {
   color: #222;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-default {
@@ -327,7 +328,6 @@ p {
 
 .navbar-default .navbar-nav>li>a {
   color: #d64937;
-  font-weight: 800;
 }
 .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:hover {
   color: #dedede;
